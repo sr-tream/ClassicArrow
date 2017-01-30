@@ -37,3 +37,5 @@ HEADERS +=\
 	cshortasm.h
 
 LIBS += -luser32
+
+QMAKE_LFLAGS_RELEASE += -static -static-libgcc -static-libstdc++
